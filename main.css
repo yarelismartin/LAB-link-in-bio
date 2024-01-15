@@ -1,3 +1,64 @@
 body{
-  background-color: burlywood;
+  background-image: url(images/gabriel-castles-qrpLT6UGYxI-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+h2{
+  font-weight: lighter;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+.d-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-pic{
+  border-radius: 50%;
+  width: 200px;
+  border: 1px solid rgb(0, 0, 0,.35);
+}
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px; 
+  color: black;
+}
+
+.icon-resize{
+  width: 40px;
+  margin-left: 10px;
+
+}
+
+.btn {
+  padding: 16px 66px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  width: 700px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  cursor:pointer;
+  background-color: rgb(0, 0, 0,.35);
+  color: white;
+}
+button:hover{
+  background-color:   rgb(0, 0, 0,.60);
 }
